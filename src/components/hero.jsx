@@ -21,12 +21,12 @@ export default function Hero() {
         <div className='hero relative py-28'>
             <div className='absolute top-0 left-0 bg-black w-full h-full opacity-[0.6]'></div>
             <div className='container relative'>
-                <div className='flex items-center flex-wrap justify-between'>
+                <div className='flex items-center flex-wrap justify-between text-center'>
                     <div className='w-[100%] lg:w-[42%] mb-4'>
                         <h1 className='text-[20px] sm:text-[30px] md:text-[40px] lg:text-[30px] xl:text-[40px] mb-4 text-white'>
                             Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy o'stirish usullaridan foydalanamiz.
                         </h1>
-                        <button className='bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
+                        <button className='bg-[#84cc16] text-white text-[18px] py-3 px-7 rounded-[10px] font-bold'>
                             Biz bilan bog'laning
                         </button>
                     </div>

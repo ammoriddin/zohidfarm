@@ -19,7 +19,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className='w-full bg-[#f5f5f5] py-4 xl:py-0'>
+            <nav className='w-full bg-[#f5f5f5]'>
                 <div className='container py-5 relative'>
                     <div className={`bottom-0 left-0 fixed bg-black w-full h-[100vh] z-20 opacity-[0.6] ${xbutton}`}></div>
                     <button onClick={burgermenu} className={`${burgerbutton} ml-auto block xl:hidden`}>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <div className='py-5'>
                 <div className='container'>
                     <div className='flex items-center justify-center flex-wrap'>
-                        <div className='flex justify-center flex-wrap items-center gap-4'>
+                        <div className='flex justify-center flex-wrap items-center gap-4 text-center'>
                             <div className='w-[5rem] logo'>
                                 <img className='w-full' src={logo} alt="logo" />
                             </div>

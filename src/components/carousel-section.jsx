@@ -15,8 +15,9 @@ export default function CarouselSection() {
     return (
         <div className='py-10 slider-section'>
             <div className='container'>
-                <h1 className='text-center text-[55px] mb-36 text-[#1a1a1a]'>ЧП "BAHODIR SHOHRUKBEK"</h1>
-                <Slider {...settings} >
+                <div className=''>
+                    <h1 className='text-center text-[55px] mb-36 text-[#1a1a1a]'>ЧП "BAHODIR SHOHRUKBEK"</h1>
+                    <Slider {...settings} >
                     <div >
                         <div className='flex items-center justify-around flex-wrap'>
                             <div className='w-[40rem]'>
@@ -80,7 +81,8 @@ export default function CarouselSection() {
                             </button>
                         </div>
                     </div>
-                </Slider>
+                    </Slider>
+                </div>
             </div>
         </div>
     )
