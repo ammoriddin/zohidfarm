@@ -1,23 +1,52 @@
 import React from 'react'
+import gallery1 from '../assets/gallery-slide-1.jpg'
+import gallery2 from '../assets/gallery-slide-2.jpg'
+import gallery3 from '../assets/gallery-slide-3.jpg'
+import gallery4 from '../assets/gallery-slide-4.jpg'
+import gallery5 from '../assets/gallery-slide-5.jpg'
+import gallery6 from '../assets/gallery-slide-6.jpg'
+
 
 export default function FotoGalereya() {
   return (
     <div className='py-10'>
         <div className='container'>
             <h1 className='text-[22px] sm:text-[25px] md:text-[30px] lg:text-[45px] mb-10 font-[600] text-center text-[#121212] w-[60%] block mx-auto'>Фотогалерея нашего фермерского хозяйства</h1>
-            <div className='flex flex-wrap gap-2 w-full'>
+            <div className='flex flex-wrap gap-2 w-full items-center'>
                 <div className='w-[100%] flex flex-wrap md:w-[32%] gap-2'>
-                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" alt="" />
-                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" alt="" />
+                    <div className='w-[100%] h-[350px]'>
+                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery1} />
+                    </div>
+                    <div className='w-[100%] h-[350px]'>
+                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery2} />
+                    </div>
                 </div>
-                <div className='w-[100%] md:w-[32%] flex-shrink-[5]'>
-                    <img className='h-[100%] w-[100%] object-cover rounded-xl' src="https://s8.stc.all.kpcdn.net/family/wp-content/uploads/2022/08/top-limon-dlya-immuniteta-960x540-1-960x540.jpg" alt="" />
+                <div className='w-[100%] h-[94vh] md:w-[32%] flex-shrink-[5]'>
+                    <img className='w-[100%] h-[100%] object-cover rounded-xl' src={gallery3} />
                 </div>
                 <div className='w-[100%] flex flex-wrap md:w-[32%] gap-2'>
-                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" alt="" />
-                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/2048px-Solid_black.svg.png" alt="" />
+                    <div className='w-[100%] h-[350px]'>
+                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery4} />
+                    </div>
+                    <div className='w-[100%] h-[350px]'>
+                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery5} />
+                    </div>
                 </div>
+
             </div>
+            {/* <div className='flex flex-wrap gap-2 w-full'>
+                <div className='w-[100%] h-[300px] flex flex-wrap md:w-[32%] gap-2'>
+                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src={gallery2} alt="" />
+                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src={gallery3} alt="" />
+                </div>
+                <div className='w-[100%] h-[600px] md:w-[32%] flex-shrink-[5]'>
+                    <img className='w-[100%] object-cover rounded-xl' src={gallery1} alt="" />
+                </div>
+                <div className='w-[100%] h-[300px] flex flex-wrap md:w-[32%] gap-2'>
+                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src={gallery4} alt="" />
+                    <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src={gallery5} alt="" />
+                </div>
+            </div> */}
         </div>
     </div>
   )

@@ -9,7 +9,7 @@ export default function MaslahatBeramiz() {
         <div className='w-full max-w-[1300px] px-[20px] mx-auto'>
             <h1 className='text-center text-[40px] font-[600] text-[#141414] mb-10'>Maslahat Beramiz</h1>
 
-            <div className='card-wrapper flex items-center flex-wrap justify-between gap-8'>
+            <div className='card-wrapper flex items-center flex-wrap justify-around gap-8'>
                 <Card width='100%' img={mahsulot1} title={'go\'sht'} price={'86000'} />
                 <Card width='100%' img={mahsulot2} title={'go\'sht'} price={'86000'} />
                 <Card width='100%' img={mahsulot1} title={'go\'sht'} price={'86000'} />

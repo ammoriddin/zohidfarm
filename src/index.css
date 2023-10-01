@@ -8,9 +8,9 @@ body, html {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1320px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,14 +99,16 @@ body, html {
 }
 
 .slider-section .slick-dots {
-  top: 0px;
+  top: 10px;
   transform: translateY(-5.5rem);
 }
+
 
 .slider-section .slick-dots li button::before {
   content: '';
   background-color: #84cc16;
   position: absolute;
+  left: -17px;
   display: flex;
   align-items: center;
   justify-content: center;

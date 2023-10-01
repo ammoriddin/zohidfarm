@@ -7,9 +7,9 @@ export default function Carousel({children: slides}) {
   const prev = () => setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1))
   const next = () => setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1))
   return (
-    <div className='relative w-[100%] lg:w-[50%] h-[28rem] md:h-[39rem] rounded-[30px]'>
+    <div className='relative w-[100%] lg:w-[50%] h-[20rem] sm:h-[28rem] md:h-[39rem] xl:h-[600px] xl:w-[600px] rounded-[30px]'>
       <div className='overflow-hidden'>
-        <div className='transition-transform ease-out duration-500 flex w-[100%] h-[28rem] md:h-[39rem]' style={{transform: `translateX(-${curr * 100}%)`}}>
+        <div className='transition-transform ease-out duration-500 flex w-[100%] h-[20rem] sm:h-[28rem] md:h-[39rem] xl:h-[600px]' style={{transform: `translateX(-${curr * 100}%)`}}>
           {slides}
         </div>
         <div className='absolute inset-0 flex items-center justify-between'>

@@ -1,20 +1,22 @@
-import React, { useState } from 'react'
-import logo from '../assets/logo.png'
+import React, { useState, useRef } from 'react'
+import logo from '../assets/logo.svg'
 
 export default function Navbar() {
     const [burgerbutton, setBurger] = useState('block')
     const [xbutton, setX] = useState('hidden')
-    const [navbarp, setNavbarp] = useState('-40rem')
+    const navref = useRef('')
 
     function burgermenu() {
         setBurger('hidden')
         setX('block')
-        setNavbarp('0')
+        navref.current.classList.add('right-[0]')
     }
+    
     function xmenu() {
         setBurger('block')
         setX('hidden')
-        setNavbarp('-40rem')
+        navref.current.classList.add('right-[-40rem]')
+        navref.current.classList.remove('right-[0]')
     }
 
     return (
@@ -25,7 +27,7 @@ export default function Navbar() {
                     <button onClick={burgermenu} className={`${burgerbutton} ml-auto block xl:hidden`}>
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 18h16M4 12h16M4 6h16" stroke="#000" stroke-width="2" stroke-linecap="round"/></svg>
                     </button>
-                    <ul className={`gap-5 fixed z-[1000] bottom-0 h-[100vh] right-[-40rem] xl:right-0 transition-all xl:h-[100%] xl:relative p-6 xl:p-0 text-[18px] font-[600] bg-[#fff]  xl:bg-transparent w-[70%] md:w-[50%] xl:w-[100%] xl:flex`}>
+                    <ul ref={navref} className={`gap-5 right-[-40rem] fixed z-[999000] bottom-0 h-[100vh] xl:right-0 transition-all xl:h-[100%] xl:relative p-6 xl:p-0 text-[18px] font-[600] bg-[#fff]  xl:bg-transparent w-[70%] md:w-[50%] xl:w-[100%] xl:flex`}>
                         <div className='w-[10px] relative right-10 top-6  xl:translate-x-0 z-[9999999999999999] ml-auto block xl:hidden'>
                             <button onClick={xmenu} className={`${xbutton} w-full`}>
                                 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20" height="20" viewBox="0 0 460.775 460.775"><path d="M285.08 230.397 456.218 59.27c6.076-6.077 6.076-15.911 0-21.986L423.511 4.565a15.55 15.55 0 0 0-21.985 0l-171.138 171.14L59.25 4.565a15.551 15.551 0 0 0-21.985 0L4.558 37.284c-6.077 6.075-6.077 15.909 0 21.986l171.138 171.128L4.575 401.505c-6.074 6.077-6.074 15.911 0 21.986l32.709 32.719a15.555 15.555 0 0 0 21.986 0l171.117-171.12 171.118 171.12a15.551 15.551 0 0 0 21.985 0l32.709-32.719c6.074-6.075 6.074-15.909 0-21.986L285.08 230.397z"/></svg>
@@ -38,19 +40,19 @@ export default function Navbar() {
                         <li className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">Videolar</a></li>
                         <li className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">Biz Haqimizda</a></li>
                         <li className='hover:text-[#000] text-[#2f2f2fb8] transition-colors'><a href="">Biz Bilan Bog'laning</a></li>
-                        </ul>
+                    </ul>
                 </div>
             </nav>
 
             <div className='py-5'>
                 <div className='container'>
-                    <div className='flex items-center justify-center flex-wrap'>
+                    <div className='flex items-center justify-between flex-wrap'>
                         <div className='flex justify-center flex-wrap items-center gap-4 text-center'>
-                            <div className='w-[5rem] logo'>
+                            <div className='w-[10rem] logo'>
                                 <img className='w-full' src={logo} alt="logo" />
                             </div>
                             <div>
-                                <h1 className='text-[25px] font-[600]'>"BAHODIR SHOHRUKBEK"</h1>
+                                <h1 className='text-[25px] font-[600]'>"ZOHIDFARM"</h1>
                                 <p className='ml-[12px] font-[600]'>Dehqonchilik</p>
                             </div>
                         </div>
