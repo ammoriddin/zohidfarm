@@ -1,8 +1,16 @@
 import React from 'react'
 import Card from './card';
 import Slider from 'react-slick';
+import un from "../assets/un.jpg"
+import tandir from "../assets/tandir.png"
+import taruz from "../assets/taruz.jpg"
+import olma from "../assets/olma.jpg"
+import uzum from "../assets/uzum.jpg"
+import { useTranslation } from "react-i18next"
 
 export default function MaslahatBeramiz() {
+  
+  const [t, i18n] = useTranslation("global")
 
   const settings = {
     dots: true,
@@ -33,19 +41,13 @@ export default function MaslahatBeramiz() {
   return (
     <div className='bg-[#e1e1e18a] py-16'>
       <div className='max-w-[1300px] px-auto mx-auto'>
-        <h1 className='text-center text-[55px] text-[#1a1a1a] mb-[40px]'>Barcha Mahsulotlar</h1>
-        <Slider {...settings} className='justify-between'>
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
-          <Card img='https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png' title={'go\'sht'} price={'86000'} />
+        <h1 className='text-center text-[55px] text-[#1a1a1a] mb-[40px] static'>Barcha Mahsulotlar</h1>
+        <Slider {...settings} className='flex justify-between'>
+          <Card img={un} title={t("popularproducts.flour")} price={'86000'} />
+          <Card img={tandir} title={t("popularproducts.tandoor")} price={'86000'} />
+          <Card img={taruz} title={t("popularproducts.watermelonandmelon")} price={'86000'} />
+          <Card img={olma} title={t("popularproducts.apple")} price={'86000'} />
+          <Card img={uzum} title={t("popularproducts.grapes")} price={'86000'} />
         </Slider>
       </div>
     </div>

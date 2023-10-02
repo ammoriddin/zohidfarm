@@ -1,0 +1,57 @@
+{
+    "contact": "Contact",
+    "navbar": {
+        "ourproducts": "Our Products",
+        "popularproducts": "Popular Products",
+        "ouradvantages": "Advantages",
+        "photos": "Photos",
+        "videos": "Videos",
+        "aboutwe": "About We"
+    },
+    "bottomnavbar": {
+        "farming": "Farming",
+        "call": "Call"
+    },
+    "hero": {
+        "herotext": "We use only natural growing methods to provide our consumers with the healthiest and tastiest products."
+    },
+    "weoffer": {
+        "wheat": "High quality wheat",
+        "flour": "Flour",
+        "compoundfeed": "Compound feed",
+        "meat": "Meat",
+        "vgtandfrt": "Vegetables and Fruits",
+        "dairyproducts": "Dairy Products"
+    },
+    "popularproducts": {
+        "flour": "Flour",
+        "tandoor": "Tandir",
+        "watermelonandmelon": "Watermelon, Melon",
+        "apple": "Apple",
+        "grapes": "Grapes"
+    },
+    "ouradvices": {
+        "h1": "Advantages",
+        "advice1": "Environmentally friendly products",
+        "advice2": "The best experts in the field of agriculture",
+        "advice3": "We import our products in original condition",
+        "advice4": "Discount system for wholesale buyers",
+        "description": "We provide the best products to our customers and strive to build long-term relationships with each of them. We believe that local fruits and vegetables are not only good for health, but also boost the local economy."
+    },
+    "photos": {
+        "h1": "Photos from Farm"
+    },
+    "videos": {
+        "h1": "Videos from Farm"
+    },
+    "zohidfarm": {
+        "description1": "Our farm is located in the Kashkadarya region of Uzbekistan and specializes in growing fruits and vegetables. We strive to produce high quality products and strive to offer only the best to our customers.",
+        "description2": "We spent a lot of time and effort to develop our farm. We use only natural growing methods to provide our consumers with the healthiest and tastiest products. We employ professional agricultural experts to improve crop quality and optimize production processes.",
+        "description3": "One of our main goals is to strengthen the local food market and create jobs for the population. We strive to attract young people to our business, to improve their professional skills, so that they can become part of our team and help the further development of the enterprise. We support local communities through job creation and charity events.",
+        "description4": "We provide the best products to our customers and strive to build long-term relationships with each of them. We believe that local fruits and vegetables are not only good for health, but also boost the local economy."
+    },
+    "footer": {
+        "h1": "Contact",
+        "locatsiya": "Respublika Uzbekistan, Kashkadaryo province"
+    }
+}

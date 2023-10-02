@@ -1,7 +1,13 @@
 import React from 'react'
 import Slider from 'react-slick'
+import carousel1 from "../assets/crousel1.jpg"
+import carousel2 from "../assets/carousel2.jpg"
+import carousel3 from "../assets/carousel3.jpg"
+import carousel4 from "../assets/carousel4.jpg"
+import { useTranslation } from "react-i18next"
 
 export default function CarouselSection() {
+    const [t, i18n] = useTranslation("global")
 
     const settings = {
         dots: true,
@@ -22,11 +28,11 @@ export default function CarouselSection() {
                         <div className=''>
                             <div className='flex items-center justify-around flex-wrap'>
                                 <div className='w-[40rem]'>
-                                    <p className='font-[600] text-center'>Наше фермерское хозяйство расположено в Кашкадарьинской области Узбекистана и специализируется на выращивании фруктов и овощей. Мы занимаемся производством высококачественных продуктов и стремимся предложить нашим клиентам только самое лучшее.</p>
+                                    <p className='font-[600] text-center'>{t("zohidfarm.description1")}</p>
                                 </div>
 
                                 <div className='w-[20rem]'>
-                                    <img className='w-full rounded-xl h-[200px] object-cover' src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
+                                    <img className='w-full rounded-xl h-[200px] object-cover' src={carousel1} alt="" />
                                 </div>
                             </div>
 
@@ -37,29 +43,15 @@ export default function CarouselSection() {
                     </div>
 
                     <div >
-                        <div className='flex items-center justify-around flex-wrap'>
-                            <div className='w-[40rem]'>
-                                <p className='font-[600] text-center'>Наше фермерское хозяйство расположено в Кашкадарьинской области Узбекистана и специализируется на выращивании фруктов и овощей. Мы занимаемся производством высококачественных продуктов и стремимся предложить нашим клиентам только самое лучшее.</p>
-                            </div>
+                        <div className=''>
+                            <div className='flex items-center justify-around flex-wrap'>
+                                <div className='w-[40rem]'>
+                                    <p className='font-[600] text-center'>{t("zohidfarm.description2")}</p>
+                                </div>
 
-                            <div className='w-[20rem]'>
-                                <img className='w-full rounded-xl h-[200px] object-cover' src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
-                            </div>
-
-                            <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
-                                Связаться с нами
-                            </button>
-                        </div>
-                    </div>
-
-                    <div >
-                        <div className='flex items-center justify-around flex-wrap'>
-                            <div className='w-[40rem]'>
-                                <p className='font-[600] text-center'>Наше фермерское хозяйство расположено в Кашкадарьинской области Узбекистана и специализируется на выращивании фруктов и овощей. Мы занимаемся производством высококачественных продуктов и стремимся предложить нашим клиентам только самое лучшее.</p>
-                            </div>
-
-                            <div className='w-[20rem]'>
-                                <img className='w-full rounded-xl h-[200px] object-cover' src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
+                                <div className='w-[20rem]'>
+                                    <img className='w-full rounded-xl h-[200px] object-cover' src={carousel2} alt="" />
+                                </div>
                             </div>
 
                             <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
@@ -69,13 +61,33 @@ export default function CarouselSection() {
                     </div>
 
                     <div >
-                        <div className='flex items-center justify-around flex-wrap'>
-                            <div className='w-[40rem]'>
-                                <p className='font-[600] text-center'>Наше фермерское хозяйство расположено в Кашкадарьинской области Узбекистана и специализируется на выращивании фруктов и овощей. Мы занимаемся производством высококачественных продуктов и стремимся предложить нашим клиентам только самое лучшее.</p>
+                        <div className=''>
+                            <div className='flex items-center justify-around flex-wrap'>
+                                <div className='w-[40rem]'>
+                                    <p className='font-[600] text-center'>{t("zohidfarm.description3")}</p>
+                                </div>
+
+                                <div className='w-[20rem]'>
+                                    <img className='w-full rounded-xl h-[200px] object-cover' src={carousel3} alt="" />
+                                </div>
                             </div>
 
-                            <div className='w-[20rem]'>
-                                <img className='w-full rounded-xl h-[200px] object-cover' src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
+                            <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
+                                Связаться с нами
+                            </button>
+                        </div>
+                    </div>
+
+                    <div >
+                        <div className=''>
+                            <div className='flex items-center justify-around flex-wrap'>
+                                <div className='w-[40rem]'>
+                                    <p className='font-[600] text-center'>{t("zohidfarm.description4")}</p>
+                                </div>
+
+                                <div className='w-[20rem]'>
+                                    <img className='w-full rounded-xl h-[200px] object-cover' src={carousel4} alt="" />
+                                </div>
                             </div>
 
                             <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>

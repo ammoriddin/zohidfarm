@@ -1,0 +1,59 @@
+{
+    "contact": "Biz Bilan Bog'laning",
+    "navbar": {
+        "ourproducts": "Mahsulotlarimiz",
+        "popularproducts": "Omma Bop Mahsulotlar",
+        "ouradvantages": "Avfzalliklarimiz",
+        "photos": "Suratlar",
+        "videos": "Videolar",
+        "aboutwe": "Biz Haqimizda"
+    },
+    "bottomnavbar": {
+        "farming": "Dehqonchilik",
+        "call": "Qo'ng'iroq Qilmoq"
+    },
+    "hero": {
+        "herotext": "Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy o'stirish usullaridan foydalanamiz.",
+        "contactus": "Biz Bilan Bog'laning"
+    },
+    "weoffer": {
+        "text": "Maslahat Beramiz",
+        "wheat": "Yuqori sifatli bug'doy",
+        "flour": "Barcha turdagi un",
+        "compoundfeed": "Kombikorm",
+        "meat": "go'sht",
+        "vgtandfrt": "Meva va Sabzavotlar",
+        "dairyproducts": "Sutli mahsulotlar"
+    },
+    "popularproducts": {
+        "flour": "Un",
+        "tandoor": "Tandir",
+        "watermelonandmelon": "Taruz, Qovun",
+        "apple": "Olma",
+        "grapes": "Uzum"
+    },
+    "ouradvices": {
+        "h1": "Avfzalliklarimiz",
+        "advice1": "Ekologik toza mahsulotlar",
+        "advice2": "Qishloq xo'jaligi sohasidagi eng yaxshi mutaxassislar",
+        "advice3": "Mahsulotlarimizni asl holida import qilamiz",
+        "advice4": "Ulgurji xaridorlar uchun chegirma tizimi",
+        "description": "Biz mijozlarimizga eng yaxshi mahsulotlarni taqdim etamiz va ularning har biri bilan uzoq muddatli munosabatlar o'rnatishga intilamiz. Bizning fikrimizcha, mahalliy meva-sabzavotlar nafaqat salomatlik uchun foydali, balki mahalliy iqtisodni ham oshiradi."
+    },
+    "photos": {
+        "h1": "Fermadan Suratlar"
+    },
+    "videos": {
+        "h1": "Fermadan Videolar"
+    },
+    "zohidfarm": {
+        "description1": "Xo‘jaligimiz O‘zbekistonning Qashqadaryo viloyatida joylashgan bo‘lib, meva-sabzavot yetishtirishga ixtisoslashgan. Biz yuqori sifatli mahsulotlarni ishlab chiqarishga intilamiz va mijozlarimizga faqat eng yaxshisini taklif qilishga intilamiz.",
+        "description2": "Fermer xo‘jaligimizni rivojlantirish uchun katta kuch va vaqt sarfladik. Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy etishtirish usullaridan foydalanamiz. Biz ekin sifatini yaxshilash va ishlab chiqarish jarayonlarini optimallashtirish uchun professional qishloq xo'jaligi mutaxassislarini ishga olamiz.",
+        "description3": "Bizning asosiy maqsadlarimizdan biri mahalliy oziq-ovqat bozorini mustahkamlash va aholi uchun ish o‘rinlari yaratishdir. Biz yoshlarni o‘z biznesimizga jalb etishga, ularning kasbiy mahoratini oshirishga intilamiz, shunda ular jamoamizning bir qismi bo‘lib, korxonaning yanada rivojlanishiga yordam bera oladi. Biz ish o‘rinlari yaratish va xayriya tadbirlari orqali mahalliy hamjamiyatlarni qo‘llab-quvvatlaymiz.",
+        "description4": "Biz mijozlarimizga eng yaxshi mahsulotlarni taqdim etamiz va ularning har biri bilan uzoq muddatli munosabatlar o'rnatishga intilamiz. Bizning fikrimizcha, mahalliy meva-sabzavotlar nafaqat salomatlik uchun foydali, balki mahalliy iqtisodni ham oshiradi."
+    },
+    "footer": {
+        "h1": "Aloqa",
+        "locatsiya": "Respublika O'zbekiston, Qashqadaryo viloyati"
+    }
+}
