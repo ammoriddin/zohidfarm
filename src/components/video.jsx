@@ -1,7 +1,8 @@
 import React from 'react'
-import Card from './card';
 import Slider from 'react-slick';
 import { useTranslation } from "react-i18next"
+import video from "../assets/video.mp4"
+import autoprefixer from 'autoprefixer';
 
 export default function Video() {
   const [t, i18n] = useTranslation("global")
@@ -36,12 +37,9 @@ export default function Video() {
     <div className='py-16'>
       <div className='max-w-[1300px] px-auto mx-auto'>
         <h1 className='text-center text-[55px] text-[#1a1a1a] mb-[40px]'>{t("videos.h1")}</h1>
-        <Slider {...settings} className='w-[100%]'>
-            <img src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
-            <img src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
-            <img src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />
-            <img src="https://www.ex-t.com/wp-content/uploads/2019/03/600x400.png" alt="" />      
-        </Slider>
+        <div className='flex justify-center'>
+          <video width="300" height="240" src={video}  controls />
+        </div>
       </div>
     </div>
   )

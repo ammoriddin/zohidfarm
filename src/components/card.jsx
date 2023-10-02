@@ -7,9 +7,9 @@ export default function Card({img, title, price}) {
     return (
         <>
             <div onClick={obj.overlayClick} className={`bottom-0 ${obj.overlayDisplay} left-0 fixed bg-[#0000003a] w-full h-[100vh] z-20 `}></div>
-            <div className={`hover:shadow-xl transition-all p-4 shadow max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700`}>
-                <div className='w-full h-[16rem]'>
-                    <img className="rounded-t-lg h-full object-cover" src={img} alt="" />
+            <div className={`hover:shadow-xl transition-all p-0 shadow max-w-[24rem] bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700`}>
+                <div className='w-[24rem] h-[16rem]'>
+                    <img className="rounded-t-lg w-full h-full object-cover" src={img} alt="" />
                 </div>
                 <div className="p-5">
                     <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
