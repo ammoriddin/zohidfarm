@@ -1,14 +1,14 @@
 {
-    "contact": "Biz Bilan Bog'laning",
-    "buying": "Buyurtma qilmoq",
+    "contact": "Biz bilan bog'lanish",
+    "buying": "Buyurtma qilish",
     "self": "XK",
     "navbar": {
         "ourproducts": "Mahsulotlarimiz",
-        "popularproducts": "Omma Bop Mahsulotlar",
+        "popularproducts": "Ommabop mahsulotlar",
         "ouradvantages": "Avfzalliklarimiz",
         "photos": "Suratlar",
         "videos": "Videolar",
-        "aboutwe": "Biz Haqimizda"
+        "aboutwe": "Biz haqimizda"
     },
     "bottomnavbar": {
         "farming": "Dehqonchilik",
@@ -16,7 +16,7 @@
     },
     "hero": {
         "herotext": "Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy o'stirish usullaridan foydalanamiz.",
-        "contactus": "Biz Bilan Bog'laning"
+        "contactus": "Biz bilan bog'lanish"
     },
     "popularproducts": {
         "text": "Barcha mahsulotlar",
@@ -27,7 +27,7 @@
         "grapes": "Uzum"
     },
     "weoffer": {
-        "text": "Omma bop mahsulotlar",
+        "text": "Ommabop mahsulotlar",
         "wheat": "Yuqori sifatli bug'doy",
         "flour": "Barcha turdagi un",
         "compoundfeed": "Kombikorm",
@@ -44,10 +44,10 @@
         "description": "Biz mijozlarimizga eng yaxshi mahsulotlarni taqdim etamiz va ularning har biri bilan uzoq muddatli munosabatlar o'rnatishga intilamiz. Bizning fikrimizcha, mahalliy meva-sabzavotlar nafaqat salomatlik uchun foydali, balki mahalliy iqtisodni ham oshiradi."
     },
     "photos": {
-        "h1": "Fermadan Suratlar"
+        "h1": "Fermadan suratlar"
     },
     "videos": {
-        "h1": "Fermadan Videolar"
+        "h1": "Fermadan videolar"
     },
     "zohidfarm": {
         "description1": "Xo‘jaligimiz O‘zbekistonning Qashqadaryo viloyatida joylashgan bo‘lib, meva-sabzavot yetishtirishga ixtisoslashgan. Biz yuqori sifatli mahsulotlarni ishlab chiqarishga intilamiz va mijozlarimizga faqat eng yaxshisini taklif qilishga intilamiz.",
