@@ -14,9 +14,11 @@
         "call": "Call"
     },
     "hero": {
-        "herotext": "We use only natural growing methods to provide our consumers with the healthiest and tastiest products."
+        "herotext": "We use only natural growing methods to provide our consumers with the healthiest and tastiest products.",
+        "contactus": "Connect with us"
     },
     "weoffer": {
+        "text": "Popular products",
         "wheat": "High quality wheat",
         "flour": "Flour",
         "compoundfeed": "Compound feed",
