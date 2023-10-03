@@ -22,14 +22,14 @@
         "wheat": "Yuqori sifatli bug'doy",
         "flour": "Barcha turdagi un",
         "compoundfeed": "Kombikorm",
-        "meat": "go'sht",
+        "meat": "Go'sht",
         "vgtandfrt": "Meva va Sabzavotlar",
         "dairyproducts": "Sutli mahsulotlar"
     },
     "popularproducts": {
         "flour": "Un",
         "tandoor": "Tandir",
-        "watermelonandmelon": "Taruz, Qovun",
+        "watermelonandmelon": "Tarvuz, Qovun",
         "apple": "Olma",
         "grapes": "Uzum"
     },
@@ -56,5 +56,13 @@
     "footer": {
         "h1": "Aloqa",
         "locatsiya": "Respublika O'zbekiston, Qashqadaryo viloyati"
+    },
+    "modal": {
+        "data": "Qo'ng'iroq qilishimiz uchun ma'lumotlaringizni kiriting",
+        "name": "Ismingiz",
+        "phone": "Raqamingiz",
+        "agree": "Men shaxsiy ma'lumotlarimni qayta ishlashga roziman",
+        "submit": "Yuborish"
+
     }
 }

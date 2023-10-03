@@ -56,5 +56,12 @@
     "footer": {
         "h1": "Contact",
         "locatsiya": "Respublika Uzbekistan, Kashkadaryo province"
+    },
+    "modal": {
+        "data": "Enter your details to order a call back",
+        "name": "Your name",
+        "phone": "Your phone number",
+        "agree": "Men shaxsiy ma'lumotlarimni qayta ishlashga roziman",
+        "submit": "Submit"
     }
 }
