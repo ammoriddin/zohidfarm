@@ -1,6 +1,7 @@
 {
     "contact": "Biz Bilan Bog'laning",
     "buying": "Buyurtma qilmoq",
+    "self": "HK",
     "navbar": {
         "ourproducts": "Mahsulotlarimiz",
         "popularproducts": "Omma Bop Mahsulotlar",
@@ -17,6 +18,13 @@
         "herotext": "Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy o'stirish usullaridan foydalanamiz.",
         "contactus": "Biz Bilan Bog'laning"
     },
+    "popularproducts": {
+        "flour": "Un",
+        "tandoor": "Tandir",
+        "watermelonandmelon": "Tarvuz, Qovun",
+        "apple": "Olma",
+        "grapes": "Uzum"
+    },
     "weoffer": {
         "text": "Omma bop mahsulotlar",
         "wheat": "Yuqori sifatli bug'doy",
@@ -25,13 +33,6 @@
         "meat": "Go'sht",
         "vgtandfrt": "Meva va Sabzavotlar",
         "dairyproducts": "Sutli mahsulotlar"
-    },
-    "popularproducts": {
-        "flour": "Un",
-        "tandoor": "Tandir",
-        "watermelonandmelon": "Tarvuz, Qovun",
-        "apple": "Olma",
-        "grapes": "Uzum"
     },
     "ouradvices": {
         "h1": "Avfzalliklarimiz",
@@ -63,6 +64,5 @@
         "phone": "Raqamingiz",
         "agree": "Men shaxsiy ma'lumotlarimni qayta ishlashga roziman",
         "submit": "Yuborish"
-
     }
 }

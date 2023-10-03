@@ -22,7 +22,7 @@ export default function CarouselSection() {
         <div className='py-10 slider-section' id='about-we'>
             <div className='container'>
                 <div className=''>
-                    <h1 className='text-center text-[55px] mb-36 text-[#1a1a1a]'>ЧП "Zohidfarm"</h1>
+                    <h1 className='text-center text-[55px] mb-36 text-[#1a1a1a]'>{t("self")} "Zohidfarm"</h1>
                     <Slider {...settings} >
                     <div >
                         <div className=''>
