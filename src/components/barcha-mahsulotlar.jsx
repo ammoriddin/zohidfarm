@@ -39,7 +39,7 @@ export default function MaslahatBeramiz() {
   };
 
   return (
-    <div className='bg-[#e1e1e18a] py-16'>
+    <div className='bg-[#e1e1e18a] py-16' id='our-products'>
       <div className='max-w-[1300px] px-auto mx-auto'>
         <h1 className='text-center text-[55px] text-[#1a1a1a] mb-[40px] static'>Barcha Mahsulotlar</h1>
         <Slider {...settings} className='flex justify-between'>

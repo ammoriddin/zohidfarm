@@ -34,7 +34,7 @@ export default function Video() {
   };
 
   return (
-    <div className='py-16'>
+    <div className='py-16' id='videos'>
       <div className='max-w-[1300px] px-auto mx-auto'>
         <h1 className='text-center text-[55px] text-[#1a1a1a] mb-[40px]'>{t("videos.h1")}</h1>
         <div className='flex justify-center'>

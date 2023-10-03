@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next"
 export default function FotoGalereya() {
   const [t, i18n] = useTranslation("global")
   return (
-    <div className='py-10'>
+    <div className='py-10' id='photos'>
         <div className='container'>
             <h1 className='text-[22px] sm:text-[25px] md:text-[30px] lg:text-[45px] mb-10 font-[600] text-center text-[#121212] w-[60%] block mx-auto'>{t("photos.h1")}</h1>
             <div className='flex flex-wrap gap-2 w-full items-center'>

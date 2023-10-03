@@ -12,7 +12,7 @@ export default function MaslahatBeramiz() {
   const [t, i18n] = useTranslation("global")
 
   return (
-    <div className='bg-[#f5f5f5] py-10'>
+    <div className='bg-[#f5f5f5] py-10' id='popular-products'>
         <div className='w-full max-w-[1300px] px-[20px] mx-auto'>
             <h1 className='text-center text-[40px] font-[600] text-[#141414] mb-10'>{t('weoffer.text')}</h1>
 

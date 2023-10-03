@@ -6,7 +6,7 @@ export default function BizningAfzalliklarimiz() {
   const [t, i18n] = useTranslation("global")
 
   return (
-    <div className='hero relative py-10'>
+    <div className='hero relative py-10' id='our-advantages'>
         <div className='absolute top-0 left-0 bg-black w-full h-full opacity-[0.6]'></div>
         <div className='container relative'>
             <h1 className='text-white text-[42px] font-bold text-center'>{t('ouradvices.h1')}</h1>

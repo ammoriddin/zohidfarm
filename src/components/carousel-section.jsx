@@ -19,7 +19,7 @@ export default function CarouselSection() {
     };
 
     return (
-        <div className='py-10 slider-section'>
+        <div className='py-10 slider-section' id='about-we'>
             <div className='container'>
                 <div className=''>
                     <h1 className='text-center text-[55px] mb-36 text-[#1a1a1a]'>ЧП "Zohidfarm"</h1>

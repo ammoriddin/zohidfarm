@@ -8,7 +8,7 @@ export default function Footer() {
   const [t, i18n] = useTranslation("global")
 
   return (
-    <footer className='hero relative'>
+    <footer className='hero relative' id='contact'>
         <div className='absolute top-0 left-0 bg-black w-full h-full opacity-[0.6]'></div>
         <div className='container py-10 relative'>
             <h1 className='text-center mb-10 font-[600] text-[45px] my-10 text-white'>{t("footer.h1")}</h1>
