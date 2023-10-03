@@ -3,12 +3,12 @@
     "buying": "Buying",
     "self": "PE",
     "navbar": {
-        "ourproducts": "Our Products",
-        "popularproducts": "Popular Products",
+        "ourproducts": "Our products",
+        "popularproducts": "Popular products",
         "ouradvantages": "Advantages",
         "photos": "Photos",
         "videos": "Videos",
-        "aboutwe": "About We"
+        "aboutwe": "About us"
     },
     "bottomnavbar": {
         "farming": "Farming",
@@ -44,10 +44,10 @@
         "description": "We provide the best products to our customers and strive to build long-term relationships with each of them. We believe that local fruits and vegetables are not only good for health, but also boost the local economy."
     },
     "photos": {
-        "h1": "Photos from Farm"
+        "h1": "Photos from farm"
     },
     "videos": {
-        "h1": "Videos from Farm"
+        "h1": "Videos from farm"
     },
     "zohidfarm": {
         "description1": "Our farm is located in the Kashkadarya region of Uzbekistan and specializes in growing fruits and vegetables. We strive to produce high quality products and strive to offer only the best to our customers.",
@@ -57,7 +57,7 @@
     },
     "footer": {
         "h1": "Contact",
-        "locatsiya": "Respublika Uzbekistan, Kashkadaryo province"
+        "locatsiya": "Respublika Uzbekistan, Kashkadarya province"
     },
     "modal": {
         "data": "Enter your details to order a call back",
