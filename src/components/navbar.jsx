@@ -70,9 +70,9 @@ export default function Navbar() {
                             <div className='bg-[#f5f5f5] flex items-center justify-center w-[3.5rem] h-[3.5rem] p-5 rounded-[50%]'>
                                 <i className="fa-solid fa-phone-volume scale-[1.4] text-[]"></i>
                             </div>
-                            <p className='text-[25px] font-[600]'>
+                            <a href='' className='text-[25px] font-[600]'>
                                 +998-97-314-99-23
-                            </p>
+                            </a>
                             <button className='bg-[#84cc16] text-white py-3 px-7 rounded-[10px]'>
                                 {t("bottomnavbar.call")}
                             </button>

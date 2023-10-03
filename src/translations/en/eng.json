@@ -12,7 +12,7 @@
     },
     "bottomnavbar": {
         "farming": "Farming",
-        "call": "Call"
+        "call": "Request a call"
     },
     "hero": {
         "herotext": "We use only natural growing methods to provide our consumers with the healthiest and tastiest products.",
@@ -28,6 +28,7 @@
         "dairyproducts": "Dairy Products"
     },
     "popularproducts": {
+        "text": "All products",
         "flour": "Flour",
         "tandoor": "Tandir",
         "watermelonandmelon": "Watermelon, Melon",
@@ -62,7 +63,7 @@
         "data": "Enter your details to order a call back",
         "name": "Your name",
         "phone": "Your phone number",
-        "agree": "Men shaxsiy ma'lumotlarimni qayta ishlashga roziman",
+        "agree": "I agree to the processing of my personal data",
         "submit": "Submit"
     }
 }

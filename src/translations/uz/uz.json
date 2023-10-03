@@ -12,13 +12,14 @@
     },
     "bottomnavbar": {
         "farming": "Dehqonchilik",
-        "call": "Qo'ng'iroq Qilmoq"
+        "call": "Qayta qo'ng'iroq"
     },
     "hero": {
         "herotext": "Biz iste'molchilarimizga eng sog'lom va eng mazali mahsulotlarni taqdim etish uchun faqat tabiiy o'stirish usullaridan foydalanamiz.",
         "contactus": "Biz Bilan Bog'laning"
     },
     "popularproducts": {
+        "text": "Barcha mahsulotlar",
         "flour": "Un",
         "tandoor": "Tandir",
         "watermelonandmelon": "Tarvuz, Qovun",

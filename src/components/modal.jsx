@@ -45,7 +45,7 @@ export default function Modal() {
             <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required/>
             <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">{t("modal.agree")}</label>
             </div>
-            <button disabled={state.submitting} type='submit' className='mb-0 sm:mb-5 mx-auto block items-center px-3 py-2 text-  [20px] font-medium text-center text-white bg-[#84cc16] rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors'>Jo'natish</button>
+            <button disabled={state.submitting} type='submit' className='mb-0 sm:mb-5 mx-auto block items-center px-3 py-2 text-  [20px] font-medium text-center text-white bg-[#84cc16] rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-colors'>{t("modal.submit")}</button>
             </form>
         </div>
       </div>
