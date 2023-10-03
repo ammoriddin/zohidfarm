@@ -1,10 +1,12 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useContext } from 'react'
 import logo from '../assets/logo.svg'
 import { useTranslation } from "react-i18next"
+import { UserContext } from '../context/user-context'
 import { Link } from 'react-scroll'
 
 export default function Navbar() {
     const [t, i18n] = useTranslation("global")
+    const obj = useContext(UserContext)
 
     function handleChangeLanguage(lng) {
         i18n.changeLanguage(lng)
@@ -73,7 +75,7 @@ export default function Navbar() {
                             <a href='tel:+998-97-314-99-23' className='text-[25px] font-[600]'>
                                 +998-97-314-99-23
                             </a>
-                            <button className='bg-[#84cc16] text-white py-3 px-7 rounded-[10px]'>
+                            <button onClick={obj.modalClick} className='bg-[#84cc16] text-white py-3 px-7 rounded-[10px]'>
                                 {t("bottomnavbar.call")}
                             </button>
                             <div className='languages flex gap-4 font-[600] text-[18px]'>

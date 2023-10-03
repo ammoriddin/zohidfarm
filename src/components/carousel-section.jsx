@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Slider from 'react-slick'
 import carousel1 from "../assets/crousel1.jpg"
 import carousel2 from "../assets/carousel2.jpg"
 import carousel3 from "../assets/carousel3.jpg"
 import carousel4 from "../assets/carousel4.jpg"
 import { useTranslation } from "react-i18next"
+import { UserContext } from '../context/user-context'
 
 export default function CarouselSection() {
     const [t, i18n] = useTranslation("global")
+    const obj = useContext(UserContext)
 
     const settings = {
         dots: true,
@@ -17,6 +19,8 @@ export default function CarouselSection() {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+
+    console.log(obj);
 
     return (
         <div className='py-10 slider-section' id='about-we'>
@@ -36,7 +40,7 @@ export default function CarouselSection() {
                                 </div>
                             </div>
 
-                            <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
+                            <button onClick={obj.modalClick} className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
                                 {t('bottomnavbar.call')}
                             </button>
                         </div>

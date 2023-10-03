@@ -81,11 +81,11 @@ export default function FotoGalereya() {
             lightboxDisplay ? 
             <div id="lightbox" onClick={hideLightBox}>
             <button className='next' onClick={showPrev}>
-              <i class="fa-solid fa-arrow-left"></i>
+              <i className="fa-solid fa-arrow-left"></i>
             </button>
             <img id="lightbox-img" src={imageToShow}></img>
             <button className='prev' onClick={showNext}>
-              <i class="fa-solid fa-arrow-right"></i>
+              <i className="fa-solid fa-arrow-right"></i>
             </button>
             </div>
         : ""

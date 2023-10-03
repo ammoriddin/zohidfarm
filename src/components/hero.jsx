@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -8,6 +8,7 @@ import slide3 from '../assets/slider3.jpg'
 import slide4 from '../assets/slider4.jpg'
 import Carousel from './carousel.jsx'
 import { useTranslation } from "react-i18next"
+import { UserContext } from '../context/user-context'
 
 const slides = [
     slide2,
@@ -18,6 +19,7 @@ const slides = [
 
 export default function Hero() {
     const [t, i18n] = useTranslation("global")
+    const obj = useContext(UserContext)
 
     return (
         <div className='hero relative py-[40px]'>
@@ -28,7 +30,7 @@ export default function Hero() {
                         <h1 className='text-[20px] sm:text-[30px] md:text-[40px] lg:text-[30px] xl:text-[40px] mb-4 text-white'>
                             {t('hero.herotext')}
                         </h1>
-                        <button className='bg-[#84cc16] text-white text-[17px] py-3 px-7 rounded-[10px] font-bold'>
+                        <button onClick={obj.modalClick} className='bg-[#84cc16] text-white text-[17px] py-3 px-7 rounded-[10px] font-bold'>
                             {t("hero.contactus")}
                         </button>
                     </div>
