@@ -94,7 +94,7 @@ export default function CarouselSection() {
                                 </div>
                             </div>
 
-                            <button className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
+                            <button onClick={obj.modalClick} className='block mx-auto mt-4 bg-[#84cc16] text-white text-[20px] py-3 px-7 rounded-[10px]'>
                                 {t('bottomnavbar.call')}
                             </button>
                         </div>
