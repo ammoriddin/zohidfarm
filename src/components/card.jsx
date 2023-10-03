@@ -8,8 +8,8 @@ export default function Card({img, title}) {
     return (
         <>
             <div onClick={obj.overlayClick} className={`bottom-0 ${obj.overlayDisplay} left-0 fixed bg-[#0000003a] w-full h-[100vh] z-20 `}></div>
-            <div className={`hover:shadow-xl transition-all p-0 shadow max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700`}>
-                <div className=' h-[16rem]'>
+            <div className={`hover:shadow-xl transition-all p-0 shadow max-w-[22rem] bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700`}>
+                <div className=' h-[16rem] w-[22rem]'>
                     <img className="rounded-t-lg w-full h-full object-cover" src={img} alt="" />
                 </div>
                 <div className="p-5">

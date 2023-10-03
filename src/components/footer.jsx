@@ -22,12 +22,6 @@ export default function Footer() {
               <li className='w-[40px]'>
                 <a className='w-full' href="#" target='_blank'><img src={telegram} alt="" /></a>
               </li>
-              <li className='w-[40px]'>
-                <a className='w-full' href="#" target='_blank'><img src={instagram} alt="" /></a>
-              </li>
-              <li className='w-[40px]'>
-                <a className='w-full' href="#" target='_blank'><img src={facebook} alt="" /></a>
-              </li>
             </ul>
         </div>
     </footer>

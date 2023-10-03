@@ -21,11 +21,11 @@ export default function BizningAfzalliklarimiz() {
                 </li>
                 <li className='w-[200px] flex flex-wrap items-center justify-center'>
                     <img src={check} alt="" />
-                    <p className='text-[20px] font-[600]'>{t('ouradvices.advice2')}</p>
+                    <p className='text-[20px] font-[600]'>{t('ouradvices.advice3')}</p>
                 </li>
                 <li className='w-[200px] flex flex-wrap items-center justify-center'>
                     <img src={check} alt="" />
-                    <p className='text-[20px] font-[600]'>{t('ouradvices.advice2')}</p>
+                    <p className='text-[20px] font-[600]'>{t('ouradvices.advice4')}</p>
                 </li>
             </ul>
             <p className='text-white text-[600] text-center w-[60%] block mx-auto mt-14'>{t('ouradvices.description')}</p>

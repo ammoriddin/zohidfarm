@@ -1,15 +1,56 @@
-import React from 'react'
+import React, { useState } from 'react'
 import gallery1 from '../assets/gallery-slide-1.jpg'
 import gallery2 from '../assets/gallery-slide-2.jpg'
 import gallery3 from '../assets/gallery-slide-3.jpg'
 import gallery4 from '../assets/gallery-slide-4.jpg'
 import gallery5 from '../assets/gallery-slide-5.jpg'
-import gallery6 from '../assets/gallery-slide-6.jpg'
 import { useTranslation } from "react-i18next"
 
+const images = [gallery1, gallery2, gallery3, gallery4, gallery5];
 
 export default function FotoGalereya() {
   const [t, i18n] = useTranslation("global")
+  const [imageToShow, setImageToShow] = useState("");
+  const [lightboxDisplay, setLightBoxDisplay] = useState(false);
+
+  const imageCards = images.map((image) => (
+    <img className="h-[100%] rounded-xl w-[100%] object-cover object-top" onClick={() => showImage(image)} src={image} />
+  ));
+
+  const showImage = (image) => {
+    setImageToShow(image);
+    setLightBoxDisplay(true);
+  };
+
+  //hide lightbox
+  const hideLightBox = () => {
+    setLightBoxDisplay(false);
+  };
+
+  //show next image in lightbox
+  const showNext = (e) => {
+    e.stopPropagation();
+    let currentIndex = images.indexOf(imageToShow);
+    if (currentIndex >= images.length - 1) {
+      setLightBoxDisplay(false);
+    } else {
+      let nextImage = images[currentIndex + 1];
+      setImageToShow(nextImage);
+    }
+  };
+
+  //show previous image in lightbox
+  const showPrev = (e) => {
+    e.stopPropagation();
+    let currentIndex = images.indexOf(imageToShow);
+    if (currentIndex <= 0) {
+      setLightBoxDisplay(false);
+    } else {
+      let nextImage = images[currentIndex - 1];
+      setImageToShow(nextImage);
+    }
+  };
+
   return (
     <div className='py-10' id='photos'>
         <div className='container'>
@@ -17,25 +58,34 @@ export default function FotoGalereya() {
             <div className='flex flex-wrap gap-2 w-full items-center'>
                 <div className='w-[100%] flex flex-wrap md:w-[32%] gap-2'>
                     <div className='w-[100%] h-[350px]'>
-                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery1} />
+                        {imageCards[0]}
                     </div>
                     <div className='w-[100%] h-[350px]'>
-                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery2} />
+                        {imageCards[1]}
                     </div>
                 </div>
                 <div className='w-[100%] h-[94vh] md:w-[32%] flex-shrink-[5]'>
-                    <img className='w-[100%] h-[100%] object-cover rounded-xl' src={gallery3} />
+                    {imageCards[2]}
                 </div>
                 <div className='w-[100%] flex flex-wrap md:w-[32%] gap-2'>
                     <div className='w-[100%] h-[350px]'>
-                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery4} />
+                        {imageCards[3]}
                     </div>
                     <div className='w-[100%] h-[350px]'>
-                        <img className='h-[100%] rounded-xl w-[100%] object-cover object-top' src={gallery5} />
+                        {imageCards[4]}
                     </div>
                 </div>
 
             </div>
+            {
+            lightboxDisplay ? 
+            <div id="lightbox" onClick={hideLightBox}>
+            <button className='next' onClick={showPrev}>⭠</button>
+            <img id="lightbox-img" src={imageToShow}></img>
+            <button className='prev' onClick={showNext}>⭢</button>
+            </div>
+        : ""
+        }
             {/* <div className='flex flex-wrap gap-2 w-full'>
                 <div className='w-[100%] h-[300px] flex flex-wrap md:w-[32%] gap-2'>
                     <img className='object-cover max-w-[47.5%] sm:max-w-[48%] md:max-w-[100%] rounded-xl' src={gallery2} alt="" />

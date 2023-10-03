@@ -42,13 +42,13 @@ export default function Navbar() {
                             </button>
                         </div>
                         <div className='flex justify-between  flex-col xl:flex-row'>
-                            <Link to="popular-products" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.popularproducts')}</a></Link>
-                            <Link to="our-products" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] mt-10 xl:mt-[0] text-[#2f2f2fb8] transition-colors'><a href="">{t('navbar.ourproducts')}</a></Link>
-                            <Link to="our-advantages" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.ouradvantages')}</a></Link>
-                            <Link to="photos" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.photos')}</a></Link>
-                            <Link to="videos" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.videos')}</a></Link>
-                            <Link to="about-we" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.aboutwe')}</a></Link>
-                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors'><a href="">{t('contact')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="popular-products" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.popularproducts')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="our-products" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] mt-10 xl:mt-[0] text-[#2f2f2fb8] transition-colors'><a href="">{t('navbar.ourproducts')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="our-advantages" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.ouradvantages')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="photos" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.photos')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="videos" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.videos')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="about-we" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors my-5 xl:my-0'><a href="">{t('navbar.aboutwe')}</a></Link>
+                            <Link onClick={() => {xmenu()}} to="contact" spy={true} smooth={true} offset={50} duration={500} className='hover:text-[#000] text-[#2f2f2fb8] transition-colors'><a href="">{t('contact')}</a></Link>
                         </div>
                     </ul>
                 </div>  
@@ -71,7 +71,7 @@ export default function Navbar() {
                                 <i className="fa-solid fa-phone-volume scale-[1.4] text-[]"></i>
                             </div>
                             <p className='text-[25px] font-[600]'>
-                                +998-91-9640274
+                                +998-97-314-99-23
                             </p>
                             <button className='bg-[#84cc16] text-white py-3 px-7 rounded-[10px]'>
                                 {t("bottomnavbar.call")}
