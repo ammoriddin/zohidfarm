@@ -15,12 +15,18 @@ export default function Footer() {
 
             <div className='text-center flex flex-col'>
                 <a href='tel:+998-91-9640274' className='text-white text-[20px] font-[600] mb-4'>+998-97-314-99-23</a>
-                {/* <a href='mailto:info@bahodirshohfarm.uz' className='text-white text-[22px] font-[600]'>info@bahodirshohfarm.uz</a> */}
-                <a href='' className='text-white text-[22px] font-[600] mb-10'>{t("footer.locatsiya")}</a>
+                <a href='mailto:info@zohidfarm.uz' className='text-white text-[22px] font-[600]'>info@zohidfarm.uz</a>
+                <a href='#' className='text-white text-[22px] font-[600] mb-10'>{t("footer.locatsiya")}</a>
             </div>
             <ul className='flex gap-4 item-center justify-center'>
               <li className='w-[40px]'>
                 <a className='w-full' href="#" target='_blank'><img src={telegram} alt="" /></a>
+              </li>
+              <li className='w-[40px]'>
+                <a className='w-full' href="#" target='_blank'><img src={instagram} alt="" /></a>
+              </li>
+              <li className='w-[40px]'>
+                <a className='w-full' href="#" target='_blank'><img src={facebook} alt="" /></a>
               </li>
             </ul>
         </div>
